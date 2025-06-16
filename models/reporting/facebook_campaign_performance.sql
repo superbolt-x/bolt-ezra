@@ -15,5 +15,5 @@ link_clicks,
 add_to_cart,
 purchases,
 revenue,
-website_leads as leads
+onfacebook_leads as leads
 FROM {{ ref('facebook_performance_by_campaign') }}
